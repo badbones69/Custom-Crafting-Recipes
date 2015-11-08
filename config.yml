@@ -1,0 +1,38 @@
+#PROTECTION_ENVIRONMENTAL
+#PROTECTION_FIRE
+#PROTECTION_FALL
+#PROTECTION_EXPLOSIONS
+#ROTECTION_PROJECTILE
+#OXYGEN
+#WATER_WORKER
+#DAMAGE_ALL
+#DAMAGE_UNDEAD
+#DAMAGE_ARTHROPODS
+#KNOCKBACK
+#FIRE_ASPECT
+#LOOT_BONUS_MOBS
+#DIG_SPEED
+#SILK_TOUCH
+#DURABILITY
+#LOOT_BONUS_BLOCKS
+#ARROW_DAMAGE
+#ARROW_KNOCKBACK
+#ARROW_FIRE
+#ARROW_INFINITE
+Items:
+  CursedPick:
+    Item: 278 #Item Id
+    Name: '&4&lCursed Pick' #Name of the Item and you can use Color Codes
+    Lore:
+     - '&c&lThe Cursed Pickaxe' #The Lore in the Item and it can be Many Lines
+    Enchantments:
+    - 'DURABILITY:300' #All the Enchantments are listed at the Top. You can also add as many as you want
+    ItemCrafting:
+     - 'EEE' #First Line in the Crafting Table
+     - 'XIX' #Second Line in the Crafting Table
+     - 'XIX' #Third Line in the Crafting Table
+    Ingredients:
+     # You can choose your own letters for the Ingredients But make sure to keep this format <Ingredient Initial>:<ItemId>
+     # X Stands for Air but do not include that in the Ingredients.
+     - 'E:388' # E Stands for Emerald or 388 in the Crafting Table.
+     - 'I:265' # I Stands for Iron Ingot or 265 in the Crafting Table.
